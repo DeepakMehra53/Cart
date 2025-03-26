@@ -1,15 +1,14 @@
-import React, { use } from "react";
 import { Link } from "react-router-dom";
 import iconCart from "../assets/images/iconCart.png";
 import { useSelector ,useDispatch,} from "react-redux";
-import { addtocart } from "../stores/cart";
+import { addToCart } from "../stores/cart";
 export const ProductCart = (props) => {
   const carts = useSelector((store) => store.cart.items);
   console.log(carts)
   const { id, name, price, image, slug } = props.data;
   const dispatch = useDispatch()
   const handleAddtoCart=()=>{
-    dispatch(addtocart({
+    dispatch(addToCart({
       productId:id,
       quantity:1
     }))
