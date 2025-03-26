@@ -14,7 +14,7 @@ const cartSlice = createSlice({
             }else{
                 state.items.push({productId,quantity})
             }
-            state.items.push({productId ,quantity})
+            
         }
     }
 })
