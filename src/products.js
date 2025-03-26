@@ -1,10 +1,9 @@
-import imageProduct1 from './assets/images/imageProduct1'
-import imageProduct2 from './assets/images/imageProduct2'
-import imageProduct3 from './assets/images/imageProduct3'
-import imageProduct4 from './assets/images/imageProduct4'
-import imageProduct5 from './assets/images/imageProduct5'
-import imageProduct6 from './assets/images/imageProduct6'
-import imageProduct7 from './assets/images/imageProduct7'
+import imageProduct1 from './assets/images/imageProduct1.webp'
+import imageProduct2 from './assets/images/imageProduct2.webp'
+import imageProduct3 from './assets/images/imageProduct3.webp'
+import imageProduct4 from './assets/images/imageProduct4.webp'
+import imageProduct5 from './assets/images/imageProduct5.webp'
+import imageProduct7 from './assets/images/imageProduct7.webp'
 
 
 
@@ -31,7 +30,7 @@ export const products =[
         id: 3,
         name: "Dog hair colors headband",
         price: 101,
-        image: imageProduct1,
+        image: imageProduct3,
         description: "L",
         slug: "dog-hair-color-headband"
 
