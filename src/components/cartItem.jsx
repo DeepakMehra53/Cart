@@ -10,7 +10,12 @@ export const CartItem = (props) =>{
         const findDetail = products.filter(product => product.id === productId)[0]
         setDetail(findDetail)
     },[productId])
-    
+   const handleMinusQuantity =()=>{
+    dispatch(changeQuantity({
+        productId:productId,
+        quantity:productId
+    }))
+   }
     return (
         <div className="flex justify-between items-center bg-slate-600 text-white p-2 border-b-2 border-slate-700 rounded-md">
             <img src={detail.image} alt="" className="w-12"/>
