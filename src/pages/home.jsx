@@ -1,6 +1,7 @@
 import React from 'react'
 import { products } from '../products'
-import { ProductCart } from '../components/productCart';
+import ProductCart from '../components/productCart';
+
 export const Home = () => {
   return (
     <div>
