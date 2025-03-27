@@ -2,7 +2,7 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 import { Header } from './header'
 import { Carttab } from './carttab'
-import {useSelector, UseSeletor} from 'react-redux'
+import {useSelector} from 'react-redux'
 export const Layout = () => {
   const statusTabCart = useSelector(store => store.cart.statusTabCart)
   return (
